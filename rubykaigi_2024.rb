@@ -1,12 +1,11 @@
-# コマンドライン引数で表示を切り替える
-
-if ARGV.empty?
-  puts "2024"
-else
-  case ARGV[0]
-  when "matsuyama"
-    puts "2025"
-  when "matz"
-    puts "20024"
-  end
-end
+eval$s=%w'bins={"matsuyama"=>["BAhsKxV++PDzN5iZYQCADQMG4MeYHz8DjBkANoCZAWP/8fjnAw==",36],"matz"=>["BAhsKxp++ODzMwCDmWE2bBiADTMGbBh+jDH2MxgDjDE28H8DmGGGAWD/8eDzD2A=",48]};
+bin,x=bins[ARGV[0]]||["BAhsKxZ++PAzgMHMDBsGYMOADcOPMT+GMcCYgf8bwMwAYPzH4x8w",39];
+n=Marshal.load(bin.unpack("m")[0]);
+y=7;
+o="";
+e=$s*3;
+j=-1;
+0.upto(x*y){|i|o<<((n[i]==1)?e[j+=1]:32);o<<((i%x==x-1)?10:"")};
+puts(o);
+#
+'.join
