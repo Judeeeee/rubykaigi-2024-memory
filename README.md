@@ -1,7 +1,8 @@
 # 概要
 
-このリポジトリは、2024/5/31[RubyKaigi 2024 事後勉強会](https://smarthr.connpass.com/event/319010/)の LT 用に作成したものです。
-[RubyKaigi 2024](https://rubykaigi.org/2024/)の[tompng さんの Writing Weird Code(Keynote)](https://rubykaigi.org/2024/presentations/tompng.html#day1)に触発されて、Quine を使って遊んでみました。
+このリポジトリは[RubyKaigi 2024 事後勉強会](https://smarthr.connpass.com/event/319010/)の LT 用に作成したものです。
+
+[RubyKaigi 2024](https://rubykaigi.org/2024/)で[tompng さんの Writing Weird Code(Keynote)](https://rubykaigi.org/2024/presentations/tompng.html#day1)に触発され、Quine を使って遊んでみました。
 
 ※ `rubykaigi_v1.rb`と`rubykaigi_v2.rb`は、Quine とは言えないかも 🫠
 
