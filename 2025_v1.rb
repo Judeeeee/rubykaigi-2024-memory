@@ -1,0 +1,12 @@
+eval$s=%w'b="BAhsK2X/fwAAAAAA/v/w/3///wP+//8f/v/n/3///4f///9//v/v/39/8OcfAAD+/uDv/38A8OcHAAD8AODvDwAA8OcD/j/4AODvDwAA/uMD/3/wAfzn/x/w/+GD///w4f/j/z/8f+AD/j/w+f/g/3/+D+AD+A/w/R8AAP5/AOAD4APw/wAAAP5/AOAHgAD4/wDgD/5/wO8fAAD+/4D//////4////9//v/f/3///w/+//8f/v8f/x///w8AAAAA/v8f/Ac=";
+n=Marshal.load(b.unpack("m")[0]);
+x=96;
+y=16;
+e="eval$s=%w"<<39<<($s*3);
+o="";
+j=-1;
+0.upto(x*y){|i|o<<((n[i]==1)?e[j+=1]:32);o<<((i%x==x-1)?10:"")};
+o[-10,6]=""<<39<<".join";
+puts(o);
+#
+'.join
