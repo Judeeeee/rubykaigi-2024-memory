@@ -4,8 +4,6 @@
 
 [RubyKaigi 2024](https://rubykaigi.org/2024/)で[tompng さんの Writing Weird Code(Keynote)](https://rubykaigi.org/2024/presentations/tompng.html#day1)に触発され、Quine を使って遊んでみました。
 
-※ `rubykaigi_v1.rb`と`rubykaigi_v2.rb`は、Quine とは言えないかも 🫠
-
 ## 参考
 
 - [Ruby で書く! Quine AA!](https://blog.kasei-san.com/entry/2019/05/02/004153)
