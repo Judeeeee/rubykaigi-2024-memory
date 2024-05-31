@@ -1,10 +1,10 @@
 eval$s=(["_=\"#{ARGV[0]}\";"]+%w'
 o="";
+bins={"next"=>"BAhsK2X/fwAAAAAA/v/w/3///wP+//8f/v/n/3///4f///9//v/v/39/8OcfAAD+/uDv/38A8OcHAAD8AODvDwAA8OcD/j/4AODvDwAA/uMD/3/wAfzn/x/w/+GD///w4f/j/z/8f+AD/j/w+f/g/3/+D+AD+A/w/R8AAP5/AOAD4APw/wAAAP5/AOAHgAD4/wDgD/5/wO8fAAD+/4D//////4////9//v/f/3///w/+//8f/v8f/x///w8AAAAA/v8f/Ac="};
 j=-1;
 x=96;
 y=16;
 e="eval$s=%w"<<39<<($s*3);
-bins={"next"=>"BAhsK2X/fwAAAAAA/v/w/3///wP+//8f/v/n/3///4f///9//v/v/39/8OcfAAD+/uDv/38A8OcHAAD8AODvDwAA8OcD/j/4AODvDwAA/uMD/3/wAfzn/x/w/+GD///w4f/j/z/8f+AD/j/w+f/g/3/+D+AD+A/w/R8AAP5/AOAD4APw/wAAAP5/AOAHgAD4/wDgD/5/wO8fAAD+/4D//////4////9//v/f/3///w/+//8f/v8f/x///w8AAAAA/v8f/Ac="};
 bin=bins[_]||"BAhsK2X/fwAAAAAA+P8D/A///wP+//8f/P8P/g///4f///9//P8f/w9/8OcfAAD+/MGf/w8A8OcHAAD8AODv9w8A8OcD/j/4AOD/8w8A/uMD/3/wAfj/8Q/w/+GD///wwf/////8f+AD/j/w8f/5///+D+AD+A/w+T/4//9/AOAD4APw/QEA4Ad/AOAHgAD4/QEA4Ad/wO8fAAD+/QE/4Af//4////9//P8/+B///w/+//8f/P8/+B///w8AAAAA/P8/+B8=";
 n=Marshal.load(bin.unpack("m")[0]);
 0.upto(x*y){|i|o<<((n[i]==1)?e[j+=1]:32);o<<((i%x==x-1)?10:"")};
